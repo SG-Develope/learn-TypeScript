@@ -1,6 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES5"
+    "target": "esnext", //es 버전선택 (esnext : 제일최신)
+    "module": "esnext", // 모듈단위 종류선택
+    "outDir": "dist", //출력파일 모음
+    "strict": true, //ts 엄격모드
+    "moduleDetection": "force" //각 파일 독립적 모듈로 선언
+
+  },
+  "ts-node": {
+    "esm": true // 기본적으로 ts-node 는 common js로 구동되어있음 그래서 esmodul로 변경
   },
   "include" : ["src"]
 }

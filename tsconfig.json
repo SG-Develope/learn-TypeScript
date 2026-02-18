@@ -4,7 +4,7 @@
     "module": "esnext", // 모듈단위 종류선택
     "outDir": "dist", //출력파일 모음
     "strict": true, //ts 엄격모드
-    "strictNullChecks": false, // null체크 안하는건데 임시로 데이터를 테스트할때 사용하는걸 대비함
+    "strictNullChecks": true, // null체크 안하는건데 임시로 데이터를 테스트할때 사용하는걸 대비함
     "moduleDetection": "force", //각 파일 독립적 모듈로 선언
     "skipLibCheck": true
 
